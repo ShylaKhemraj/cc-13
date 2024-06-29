@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dynamic Product Display</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="loading">Loading...</div>
+            <div id="error" class="hidden">Failed to load. Try again later.</div>
+            <div id="product" class="hidden">
+                <h1 id="product-name"></h1>
+                <img id="product-image" src="" a;t="Product Image">
+                <p id="product-price"></p>
+                <p id="product-description"></p>
+                <div class="navigation">
+                    <button id="prev-btn">Previous</button>
+                    <button id="next-btn">Next</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
